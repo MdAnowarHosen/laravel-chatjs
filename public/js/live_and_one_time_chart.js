@@ -67,7 +67,7 @@ var sampleChartClass;
                var responseData = data.data;
                var labels = Object.keys(responseData);
                var votesValue = Object.values(responseData);
-                console.log(votesValue);
+                //console.log(votesValue);
                 myChart.data.labels = labels;
                 myChart.data.datasets[0].data = votesValue;
                 myChart.update();
