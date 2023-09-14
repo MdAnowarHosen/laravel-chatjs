@@ -15,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [ChartController::class, 'index']);
+Route::get('/one-time-load', [ChartController::class, 'oneTime']);
+Route::get('/live-chart', [ChartController::class, 'liveChart']);
